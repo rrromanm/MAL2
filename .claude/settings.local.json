@@ -3,7 +3,12 @@
     "allow": [
       "Bash(python3 -c ' *)",
       "Bash(rm disease_prediction.ipynb.bak)",
-      "Bash(rm /tmp/modify_notebook.py)"
+      "Bash(rm /tmp/modify_notebook.py)",
+      "Bash(grep -iE \"music_lstm_utils|\\\\.mid$|LoFi|anthems\")",
+      "Bash(.conda/bin/python -c \"import torch, pretty_midi, imageio_ffmpeg, scipy, numpy, matplotlib; print\\('torch',torch.__version__\\); print\\('ok'\\)\")",
+      "Bash(.conda/bin/python -c \"import nbconvert, nbclient, ipykernel; print\\('nbconvert ok'\\)\")",
+      "Bash(.conda/bin/pip install *)",
+      "Bash(echo \"EXIT=$?\")"
     ]
   }
 }

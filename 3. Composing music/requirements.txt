@@ -1,0 +1,11 @@
+# Portfolio 3 — RNN language models for music
+# Install into your env, then select that interpreter as the notebook kernel in VS Code:
+#   pip install -r requirements.txt
+torch>=2.2
+pretty_midi>=0.2.10
+numpy
+scipy
+matplotlib
+pillow
+# Optional: lets the audio cell export .mp3 instead of .wav (otherwise WAV is used).
+# imageio-ffmpeg
