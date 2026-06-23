@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(rm disease_prediction.ipynb.bak)",
+      "Bash(rm /tmp/modify_notebook.py)"
+    ]
+  }
+}
