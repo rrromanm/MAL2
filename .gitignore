@@ -183,3 +183,5 @@ cython_debug/
 3. Composing music/outputs/
 3. Composing music/LoFi/
 3. Composing music/anthems/
+1. Recognizing speech/x_digits.npy
+2. Generating handwriting/dataset/x_letters.npy

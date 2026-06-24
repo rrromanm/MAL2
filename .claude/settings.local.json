@@ -8,7 +8,16 @@
       "Bash(.conda/bin/python -c \"import torch, pretty_midi, imageio_ffmpeg, scipy, numpy, matplotlib; print\\('torch',torch.__version__\\); print\\('ok'\\)\")",
       "Bash(.conda/bin/python -c \"import nbconvert, nbclient, ipykernel; print\\('nbconvert ok'\\)\")",
       "Bash(.conda/bin/pip install *)",
-      "Bash(echo \"EXIT=$?\")"
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(jupyter --version)",
+      "Bash(python -c \"import gymnasium, torch, numpy, matplotlib; print\\('gymnasium', gymnasium.__version__\\); print\\('torch', torch.__version__\\)\")",
+      "Bash(jupyter kernelspec *)",
+      "Bash(python3 -c \"import gymnasium\")",
+      "Read(//Users/rrromanm/Library/Jupyter/kernels/mal2/**)",
+      "Bash(/Users/rrromanm/Library/Jupyter/kernels/mal2/../*/python -c \"import gymnasium\")",
+      "Bash(python -c \"import torch, numpy, matplotlib; print\\('torch ok'\\)\")",
+      "Bash(python -m pip install gymnasium)",
+      "Bash(time jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=1800 --ExecutePreprocessor.kernel_name=python3 \"blackjack_assignment4.ipynb\")"
     ]
   }
 }
